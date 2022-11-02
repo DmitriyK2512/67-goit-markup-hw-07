@@ -1,14 +1,14 @@
-.advantage-list {
+.advantage__list {
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
 }
 
-.advantage-item {
+.advantage__item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.advantage-item-wrapper {
+.advantage__item-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +18,14 @@
     margin-bottom: 30px;
 }
 
-.advantage-title {
+.advantage__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
 }
 
-.advantage-text {
+.advantage__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

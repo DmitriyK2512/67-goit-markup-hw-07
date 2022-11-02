@@ -31,28 +31,30 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
+      <div class="container header__container">
         <nav class="navigation">
-          <a class="logo header-logo link" href="./index.html"
-            ><span class="logo-span">Web</span>Studio</a
+          <a class="logo header__logo link" href="./index.html"
+            ><span class="logo_accent">Web</span>Studio</a
           >
           <ul class="menu list">
-            <li class="menu-item">
+            <li class="menu__item">
               <a
-                class="menu-link link link-hover link-header current"
+                class="menu__link link link-hover header__link menu__link_current"
                 href="./index.html"
                 >Студія</a
               >
             </li>
-            <li class="menu-item">
+            <li class="menu__item">
               <a
-                class="menu-link link link-hover link-header"
+                class="menu__link link link-hover header__link"
                 href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
             <li class="menu-item">
-              <a class="menu-link link link-hover link-header" href=""
+              <a
+                class="menu__link link link-hover header__link"
+                href=""
                 >Контакти</a
               >
             </li>
@@ -62,13 +64,13 @@
         <ul class="header-contact-list list">
           <li class="header-contact-item">
             <a
-              class="mailto-link link link-hover link-header header-contact-link"
+              class="mailto-link link link-hover header__link header__contact-link"
               href="mailto:info@devstudio.com
 "
               ><svg
                 lang="uk"
                 aria-label="Іконка-конверт"
-                class="header-contact-list-icon"
+                class="mailto-link__icon header-contact-list-icon"
                 width="16"
                 height="12"
               >
@@ -79,12 +81,12 @@
           </li>
           <li>
             <a
-              class="phone-number-link link link-hover link-header header-contact-link"
+              class="phone-number-link link link-hover header__link header__contact-link"
               href="tel:+380961111111"
               ><svg
                 lang="uk"
                 aria-label="Іконка телефон"
-                class="header-contact-list-icon"
+                class="phone-number-link__icon header-contact-list-icon"
                 width="10"
                 height="16"
               >
@@ -99,8 +101,8 @@
 
     <main>
       <section class="hero">
-        <div class="container hero-container">
-          <h1 class="hero-title transform">
+        <div class="container hero__container">
+          <h1 class="hero__title transform">
             Ефективні рішення для вашого бізнесу
           </h1>
           <button
@@ -116,34 +118,34 @@
       <section class="advantage section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
-          <ul class="advantage-list list">
-            <li class="advantage-item">
-              <div class="advantage-item-wrapper">
+          <ul class="advantage__list list">
+            <li class="advantage__item">
+              <div class="advantage__item-wrapper">
                 <svg
                   lang="uk"
                   aria-label="Малюнок антени"
-                  class="advantage-item-icon"
+                  class="advantage__item-icon"
                   width="70"
                   height="70"
                 >
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="advantage-title transform">
+              <h3 class="advantage__title transform">
                 Увага до деталей
               </h3>
-              <p class="advantage-text">
+              <p class="advantage__text">
                 Ідейні міркування, і навіть початок повсякденної
                 роботи з формування позиції.
               </p>
             </li>
 
-            <li class="advantage-item">
-              <div class="advantage-item-wrapper">
+            <li class="advantage__item">
+              <div class="advantage__item-wrapper">
                 <svg
                   lang="uk"
                   aria-label="Малюнок годинник"
-                  class="advantage-item-icon"
+                  class="advantage__item-icon"
                   width="70"
                   height="70"
                 >
@@ -151,21 +153,21 @@
                 </svg>
               </div>
 
-              <h3 class="advantage-title transform">
+              <h3 class="advantage__title transform">
                 Пунктуальність
               </h3>
-              <p class="advantage-text">
+              <p class="advantage__text">
                 Завдання організації, особливо рамки і місце навчання
                 кадрів тягне у себе.
               </p>
             </li>
 
-            <li class="advantage-item">
-              <div class="advantage-item-wrapper">
+            <li class="advantage__item">
+              <div class="advantage__item-wrapper">
                 <svg
                   lang="uk"
                   aria-label="Малюнокткомпютер"
-                  class="advantage-item-icon"
+                  class="advantage__item-icon"
                   width="70"
                   height="70"
                 >
@@ -173,19 +175,19 @@
                 </svg>
               </div>
 
-              <h3 class="advantage-title transform">Планування</h3>
-              <p class="advantage-text">
+              <h3 class="advantage__title transform">Планування</h3>
+              <p class="advantage__text">
                 Так само консультація з широким активом значною мірою
                 зумовлює.
               </p>
             </li>
 
-            <li class="advantage-item">
-              <div class="advantage-item-wrapper">
+            <li class="advantage__item">
+              <div class="advantage__item-wrapper">
                 <svg
                   lang="uk"
                   aria-label="Малюнок астронавт"
-                  class="advantage-item-icon"
+                  class="advantage__item-icon"
                   width="70"
                   height="70"
                 >
@@ -194,10 +196,10 @@
                   ></use>
                 </svg>
               </div>
-              <h3 class="advantage-title transform">
+              <h3 class="advantage__title transform">
                 Сучасні технології
               </h3>
-              <p class="advantage-text">
+              <p class="advantage__text">
                 Значимість цих проблем настільки очевидна, що
                 реалізація планових завдань.
               </p>
@@ -208,46 +210,48 @@
 
       <section class="work section">
         <div class="container">
-          <h2 class="work-title title">Чим ми займаємося</h2>
-          <ul class="work-list list">
-            <li class="work-item">
+          <h2 class="title">Чим ми займаємося</h2>
+
+          <ul class="work__list list">
+            <li class="work__item">
               <img
-                class="work-img"
+                class="work__img"
                 src="./images/work_1.jpg"
                 alt="Руки печатають на клавіатурі"
                 width="370"
                 height="294"
               />
-              <div class="work-item-wrapper">
-                <p class="work-item-text text transform">
+              <div class="work__item-wrapper">
+                <p class="work__item-text text transform">
                   Десктопні додатки
                 </p>
               </div>
             </li>
-            <li class="work-item">
+            <li class="work__item">
               <img
-                class="work-img"
+                class="work__img"
                 src="./images/work_2.jpg"
                 alt="Рука з телефоном перед монітором комп'ютера"
                 width="370"
                 height="294"
               />
-              <div class="work-item-wrapper">
-                <p class="work-item-text text transform">
+              <div class="work__item-wrapper">
+                <p class="work__item-text text transform">
                   Мобільні додатки
                 </p>
               </div>
             </li>
-            <li class="work-item">
+
+            <li class="work__item">
               <img
-                class="work-img"
+                class="work__img"
                 src="./images/work_3.jpg"
                 alt="Рука з планшетом"
                 width="370"
                 height="294"
               />
-              <div class="work-item-wrapper">
-                <p class="work-item-text text transform">
+              <div class="work__item-wrapper">
+                <p class="work__item-text text transform">
                   Дизайнерські рішення
                 </p>
               </div>
@@ -258,17 +262,17 @@
 
       <section class="team section">
         <div class="container">
-          <h2 class="team-title title">Наша команда</h2>
-          <ul class="team-list list">
-            <li class="team-item">
+          <h2 class="title">Наша команда</h2>
+          <ul class="team__list list">
+            <li class="team__item">
               <img
-                class="team-img"
+                class="team__img"
                 src="./images/ihor_demianenko.jpg"
                 alt="Фото Ігоря Дем'яненко"
                 width="270"
                 height="260"
               />
-              <div class="team-item-wrapper">
+              <div class="team__item-wrapper">
                 <h3 class="team-item-title">Ігор Дем'яненко</h3>
                 <p class="team-item-text" lang="en">
                   Product Designer
@@ -702,8 +706,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-address-wrapper">
-          <a class="logo footer-logo link" href="./index.html"
-            ><span class="logo-span">Web</span>Studio</a
+          <a class="logo footer__logo link" href="./index.html"
+            ><span class="logo_accent">Web</span>Studio</a
           >
 
           <address class="address">
