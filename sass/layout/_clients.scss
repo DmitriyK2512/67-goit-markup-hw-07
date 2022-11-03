@@ -1,9 +1,9 @@
-.clients-list {
+.clients__list {
     display: flex;
     column-gap: 30px;
 }
 
-.clients-link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
             }
 }
 
-.clients-icon {
+.clients__icon {
     fill: currentColor;
 }
 

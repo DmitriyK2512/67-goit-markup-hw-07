@@ -1,4 +1,4 @@
-.portfolio-button {
+.portfolio__button {
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
@@ -20,6 +20,6 @@
 
 }
 
-.button-activ:active {
+.portfolio__button_activ:active {
     color: var(--accent-color);
 }

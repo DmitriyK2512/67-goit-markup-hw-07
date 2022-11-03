@@ -4,7 +4,7 @@
     padding-bottom: 60px;
 }
 
-.footer-container {
+.footer__container {
     display: flex;
     align-items: baseline;
 
@@ -13,26 +13,26 @@
     color: var(--secondary-color-w);
 }
 
-.footer-address-wrapper {
+.footer__address-wrapper {
     margin-right: 70px;
 }
 
-.address {
+.footer__address {
     margin-top: 20px;
 }
 
-.address-item:not(:last-child) {
+.footer__address-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.address-link {
+.footer__address-link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-color-w);
 }
 
-.footer-contact-link {
+.footer__contact-link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -40,15 +40,15 @@
 }
 
 /* =============== */
-.footer-social-link-wrapper {
+.footer__social-link-wrapper {
     margin-right: 93px;
 }
 
-.footer-social-link-text {
+.footer__social-link-text {
     margin-bottom: 20px;
 }
 
-.footer-social-link {
+.footer__social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,14 +65,14 @@
         }
 }
 
-.footer-social-link-icon {
+.footer__social-link-icon {
     fill: currentColor;
 }
 
 
 
 /* ////////////////////////////////////////// */
-.footer-subscription-form {
+.footer__subscription-form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,16 +82,16 @@
     color: var(--secondary-color);
 }
 
-.footer-subscription-text {
+.footer__subscription-text {
     margin-bottom: 20px;
 }
 
-.footer-subscription-wrapper {
+.footer__subscription-wrapper {
     display: flex;
     align-items: center;
 }
 
-.footer-subscription-form-input {
+.footer__subscription-form-input {
     width: 358px;
     height: 50px;
     padding: 15px 10px;
@@ -116,7 +116,7 @@
 
 
 
-.footer-subscription-button {
+.footer__subscription-button {
     display: flex;
     align-items: center;
     margin-left: 12px;
@@ -127,6 +127,6 @@
     border: none;
 }
 
-.footer-subscription-button-icon {
+.footer__subscription-button-icon {
     margin-left: 10px;
 }
